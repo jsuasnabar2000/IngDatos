@@ -142,7 +142,7 @@ Construir un script que simule un **gestor de proyectos** en Google Drive, usand
 El programa debe:
 
 1. **Detectar el sistema operativo** con `os.name` y mostrar un mensaje de bienvenida adaptado.  
-2. **Crear una carpeta principal** llamada `ProyectoOS_Avanzado`.  
+2. **Crear una carpeta principal** llamada `ProyectoOS`.  
 3. **Generar subcarpetas**: `Entradas`, `Procesados`, `Errores`, `Backups`.  
 4. **Crear archivos de texto** en `Entradas` con nombres `entrada1.txt`, `entrada2.txt`, etc., y escribir contenido simulado.  
 5. **Listar todo el contenido** de la carpeta principal con `os.listdir()` y mostrarlo en pantalla.  
