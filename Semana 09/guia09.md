@@ -1,8 +1,8 @@
-# GUÍA DE LABORATORIO N° 01: Modelos de k-vecinos y arboles con Scikit-learn
+# GUÍA DE LABORATORIO N° 09: Modelos de k-vecinos y arboles con Scikit-learn
 >Intitución                 |Universidad Nacional del Centro del Perú   |
 >-------------------------  | ------------------------------            |
 >**Programa de Estudios:**  | Ingeniería de Sistemas                    |
->**Asignatura:**            | Desarrollo de Aplicaciones Web            |
+>**Asignatura:**            | Ingeniería de Datos            |
 >**Docente:**               | Dr. Jaime Suasnábar Terrel                    |
 >**Semestre:**              | X                                        |
 >**Instrucciones:**              | Desarrollar el laboratorio en Google Colab, utilizando la librería Scikit-learn para implementar los modelos de clasificación. Documentar cada paso con comentarios y explicar los resultados obtenidos. Duración: 85min                   |
