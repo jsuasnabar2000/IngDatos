@@ -120,14 +120,6 @@ Debe evolucionar continuamente.
 
 Estandarizar componentes reutilizables.
 
-#### Ejemplos
-
-- Almacenamiento de objetos.
-- Git.
-- Sistemas de monitoreo.
-- Motores de procesamiento.
-- Plataformas de orquestación.
-
 #### Beneficios
 
 - Menos duplicidad.
@@ -175,23 +167,18 @@ Cantidad máxima aceptable de pérdida de datos.
 ### Principio 3: Diseñar para la Escalabilidad
 
 #### Escalamiento Vertical
-
 Incrementar:
-
 - CPU.
 - RAM.
 - Almacenamiento.
 
 #### Escalamiento Horizontal
-
 Agregar más servidores.
 
 #### Elasticidad
-
 Capacidad de crecer o reducir recursos automáticamente.
 
 #### Beneficios
-
 - Soporta picos de carga.
 - Optimiza costos.
 - Mejora rendimiento.
@@ -199,18 +186,15 @@ Capacidad de crecer o reducir recursos automáticamente.
 ---
 
 ### Principio 4: La Arquitectura es Liderazgo
-
 El arquitecto no sólo diseña sistemas.
 
 También:
-
 - Dirige decisiones técnicas.
 - Capacita equipos.
 - Comunica estrategias.
 - Promueve buenas prácticas.
 
 #### Características del Arquitecto Moderno
-
 - Visión estratégica.
 - Conocimiento técnico.
 - Capacidad de comunicación.
@@ -219,23 +203,18 @@ También:
 ---
 
 ### Principio 5: Siempre Estar Arquitectando
-
 La arquitectura es un proceso continuo.
 
 #### Arquitectura Base (Baseline)
-
 Estado actual de la organización.
 
 #### Arquitectura Objetivo (Target)
-
 Estado deseado.
 
 #### Plan de Transición
-
 Ruta para alcanzar la arquitectura objetivo.
 
 #### Enfoque Moderno
-
 - Iterativo.
 - Ágil.
 - Colaborativo.
@@ -245,18 +224,15 @@ Ruta para alcanzar la arquitectura objetivo.
 ### Principio 6: Construir Sistemas Débilmente Acoplados
 
 #### Acoplamiento Débil (Loose Coupling)
-
 Los sistemas deben depender lo menos posible entre sí.
 
 #### Características
-
 - Servicios independientes.
 - APIs bien definidas.
 - Cambios aislados.
 - Evolución autónoma.
 
 #### Ventajas
-
 - Facilidad de mantenimiento.
 - Mayor velocidad de despliegue.
 - Mejor resiliencia.
@@ -267,62 +243,48 @@ Los sistemas deben depender lo menos posible entre sí.
 ### Principio 7: Tomar Decisiones Reversibles
 
 #### Decisiones Tipo 1
-
 Difíciles de revertir.
 
 Ejemplo:
-
 - Cambiar completamente la plataforma tecnológica.
 
 #### Decisiones Tipo 2
-
 Fáciles de revertir.
 
 Ejemplo:
-
 - Probar una herramienta analítica nueva.
 
 #### Recomendación
-
 Maximizar decisiones reversibles.
-
 Permiten aprendizaje rápido y menor riesgo.
 
 ---
 
 ### Principio 8: Priorizar la Seguridad
-
 La seguridad debe incorporarse desde el diseño.
 
 #### Zero Trust
-
 No confiar automáticamente en usuarios o sistemas.
 
 #### Principio de Menor Privilegio
-
 Cada usuario debe tener únicamente los permisos necesarios.
 
 #### Shared Responsibility Model
 
 ##### Proveedor Cloud
-
 Responsable de:
-
 - Infraestructura.
 - Centros de datos.
 - Redes.
 
 ##### Cliente
-
 Responsable de:
-
 - Configuración.
 - Usuarios.
 - Accesos.
 - Protección de datos.
 
 #### Áreas de Seguridad
-
 - IAM.
 - Cifrado.
 - Políticas de acceso.
@@ -332,26 +294,21 @@ Responsable de:
 ---
 
 ### Principio 9: Adoptar FinOps
-
 FinOps integra:
-
 - Finanzas.
 - Operaciones.
 - Tecnología.
 
 #### Objetivo
-
 Maximizar valor empresarial minimizando desperdicios.
 
 #### Beneficios
-
 - Optimización del gasto cloud.
 - Monitoreo de costos.
 - Escalabilidad eficiente.
 - Mayor retorno de inversión.
 
 #### Indicadores
-
 - Costo por consulta.
 - Costo por procesamiento.
 - Costo por almacenamiento.
@@ -361,7 +318,6 @@ Maximizar valor empresarial minimizando desperdicios.
 
 
 # Parte 2 - Arquitecturas Modernas de Datos
-
 Las organizaciones actuales generan cantidades masivas de datos provenientes de aplicaciones web, dispositivos móviles, sensores IoT, redes sociales, sistemas empresariales y múltiples fuentes externas. Para almacenar, procesar, transformar y explotar estos datos se requiere una arquitectura capaz de soportar volumen, velocidad y variedad crecientes.
 
 A lo largo de los años han surgido diferentes arquitecturas de datos que buscan resolver problemas específicos relacionados con almacenamiento, análisis, rendimiento, escalabilidad y gobernanza.
@@ -371,7 +327,6 @@ La evolución tecnológica ha impulsado el paso desde arquitecturas tradicionale
 ---
 
 ## Evolución de las Arquitecturas de Datos
-
 La evolución de las arquitecturas modernas puede resumirse de la siguiente manera:
 
 ```text
@@ -391,7 +346,6 @@ Cada modelo intenta resolver las limitaciones del modelo anterior.
 ## 1. Data Warehouse
 
 ### ¿Qué es un Data Warehouse?
-
 Un Data Warehouse (almacén de datos) es una plataforma centralizada diseñada para integrar, organizar y almacenar información proveniente de múltiples sistemas operacionales con el objetivo de facilitar el análisis de negocios y la toma de decisiones.
 
 El concepto fue introducido por Bill Inmon en 1989.
@@ -401,11 +355,8 @@ El concepto fue introducido por Bill Inmon en 1989.
 ### Características principales
 
 #### Orientado al análisis
-
 No está diseñado para operaciones transaccionales.
-
 Su finalidad es responder preguntas como:
-
 - ¿Cuáles fueron las ventas del último trimestre?
 - ¿Qué productos generan mayor rentabilidad?
 - ¿Cuál es el comportamiento de los clientes?
@@ -413,9 +364,7 @@ Su finalidad es responder preguntas como:
 ---
 
 #### Integrado
-
 Los datos provienen de diversas fuentes:
-
 - ERP
 - CRM
 - Bases de datos corporativas
@@ -424,15 +373,12 @@ Los datos provienen de diversas fuentes:
 ---
 
 #### Histórico
-
 Mantiene información de distintos períodos de tiempo.
-
 Permite analizar tendencias y comportamientos históricos.
 
 ---
 
 #### Estructurado
-
 Los datos son limpiados, transformados y modelados antes de ser almacenados.
 
 ---
@@ -444,7 +390,6 @@ Los datos son limpiados, transformados y modelados antes de ser almacenados.
 ---
 
 ### ETL
-
 ETL (siglas en inglés de Extract, Transform, Load, o Extracción, Transformación y Carga) es un proceso de integración de datos que toma información de una o varias fuentes, la limpia y estructura, y la guarda en un repositorio central para su análisis.
 
 ---
