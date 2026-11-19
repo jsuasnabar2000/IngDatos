@@ -41,7 +41,7 @@ Diseño de sistemas que apoyan las necesidades cambiantes de datos mediante deci
 ---
 
 ## 2. Componentes de la Arquitectura de Datos
-
+![Arquitectura de Datos](a2.png)
 ### 2.1 Arquitectura Operacional
 
 Describe qué debe realizarse.
